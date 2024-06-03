@@ -1,0 +1,15 @@
+npx create-expo-app IncredibleTaskList
+
+EXPO ROUTER
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+Configurar o Router:
+    - package.json
+    - app.json
+
+Executar o projeto  
+    estar na pasta do projeto
+    npx expo start --localhost --android
+
+restaurar um projeto apos clonar
+    npm i
