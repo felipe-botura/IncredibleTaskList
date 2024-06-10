@@ -7,12 +7,12 @@ export default function Welcome() {
     <View style={styles.container}>
       <View style={styles.imageContainer}>
         <Image
-          source={require("../assets/avatar.png")}
+          source={require("../assets/kuromi.jpg")}
           style={styles.image}
         />
       </View>
       <View style={styles.content}>
-      <Text style={styles.title}>AlliGallo</Text>
+      <Text style={styles.title}>Kuromi List</Text>
       <Text style={styles.text}>Monte sua lista de compras!</Text>
       <Link style={styles.button} href={"/home"}>
         <Text style={styles.buttonText}>Acessar</Text>
@@ -26,7 +26,7 @@ export default function Welcome() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000000',
+    backgroundColor: '#262b41',
   },
   imageContainer: {
     flex: 2,
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    backgroundColor: '#dadada',
+    backgroundColor: '#fff',
     borderTopLeftRadius: 25,
     borderTopRightRadius: 25,
     paddingHorizontal: '5%',
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
   },
   button:{
     position: 'absolute',
-    backgroundColor: '#000000',
+    backgroundColor: '#543b75',
     borderRadius: 50,
     bottom: '15%',
     paddingVertical: 15,

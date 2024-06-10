@@ -111,7 +111,7 @@ export default function Home() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <ImageBackground
-        source={require('../../assets/background.jpg')}
+        source={require('../../assets/wallpaper.jpg')}
         // resizeMode='repeat'
         style={{ flex: 1, justifyContent: 'flex-start' }}
       >
