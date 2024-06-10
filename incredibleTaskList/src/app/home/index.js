@@ -117,7 +117,8 @@ export default function Home() {
       >
         <View style={styles.header}>
           <Text style={styles.title}>Lista de Produtos</Text>
-          <Ionicons name="trash" size={32} color='#fff' onPress={removeAll} />
+          <Ionicons name="trash" size={32} color='#
+          ' onPress={removeAll} />
         </View>
 
         {/* Lista de Produto */}
@@ -136,7 +137,7 @@ export default function Home() {
         <View style={styles.footer}>
           <View style={styles.inputContainer}>
             <TextInput
-              color='#fff'
+              color='#000'
               fontSize={18}
               placeholderTextColor='#aeaeae'
               placeholder='Digite o nome do produto...'

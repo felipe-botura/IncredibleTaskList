@@ -14,7 +14,7 @@ export default function Welcome() {
       <View style={styles.content}>
       <Text style={styles.title}>Kuromi List</Text>
       <Text style={styles.text}>Monte sua lista de compras!</Text>
-      <Link style={styles.button} href={"/home"}>
+      <Link style={styles.button} href="/home">
         <Text style={styles.buttonText}>Acessar</Text>
       </Link>
       </View>
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   text:{
-    color: 'grey',
+    color: '000',
     fontSize: 16,
     textAlign: 'center'
   },

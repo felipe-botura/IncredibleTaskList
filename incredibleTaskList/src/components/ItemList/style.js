@@ -6,12 +6,12 @@ export const styles = StyleSheet.create({
         elevation: 12,
         borderRadius: 7,
         borderWidth: 2,
-        borderColor: 'white',
+        borderColor: '#262254',
         marginVertical: 5,
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        backgroundColor: '#000000c0'
+        backgroundColor: '#262254c0'
     },
     itemToBuy: {
         color: '#fff',
@@ -26,7 +26,7 @@ export const styles = StyleSheet.create({
     actionIcon: {
         height: 40,
         width: 40,
-        backgroundColor: 'darkgreen',
+        backgroundColor: '#9587e2',
         justifyContent: 'center',
         alignItems: 'center',
         marginLeft: 10,

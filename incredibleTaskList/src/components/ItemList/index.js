@@ -28,7 +28,7 @@ export default function ItemList({item, markItem, unmarkItem, removeItem}) {
       )}      
 
       <TouchableOpacity 
-      style={[styles.actionIcon, {backgroundColor: 'darkred' }]}
+      style={[styles.actionIcon, {backgroundColor: '#262254' }]}
       onPress={() => removeItem(item.id)}
       >
         <Ionicons name='trash-bin-outline' size={24} color="#fff" />
